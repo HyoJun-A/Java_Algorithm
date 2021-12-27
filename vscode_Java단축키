@@ -1,0 +1,2 @@
+Ctrl + . : import문 자동 생성
+Alt + Shift + O : 파일 전체에서 import 할 클래스를 찾아서, 자동으로 import 
