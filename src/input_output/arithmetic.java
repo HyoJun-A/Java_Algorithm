@@ -1,5 +1,17 @@
 package input_output;
 
-public class arithmetic {
+import java.util.Scanner;
 
+public class arithmetic {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        System.out.println(A + B);
+        System.out.println(A - B);
+        System.out.println(A * B);
+        System.out.println(A / B);
+        System.out.println(A % B);
+    }
 }
