@@ -2,8 +2,6 @@ package input_output;
 
 import java.util.Scanner;
 
-import javax.swing.plaf.synth.SynthStyle;
-
 public class multiply2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -19,5 +17,7 @@ public class multiply2 {
         System.out.println(ten);
         System.out.println(one);
         System.out.println(multi);
+
+        sc.close();
     }
 }

@@ -13,5 +13,7 @@ public class arithmetic {
         System.out.println(A * B);
         System.out.println(A / B);
         System.out.println(A % B);
+
+        sc.close();
     }
 }

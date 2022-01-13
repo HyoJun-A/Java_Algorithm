@@ -10,13 +10,11 @@ public class Comparison {
 
         if (A > B) {
             System.out.println(">");
-        } else if (A < B) {
+        } else if (A < B) {s
             System.out.println("<");
         } else if (A == B) {
             System.out.println("==");
         }
-
-        sc.close();
     }
 }
 

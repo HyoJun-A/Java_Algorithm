@@ -9,5 +9,7 @@ public class division {
         double B = sc.nextDouble();
 
         System.out.println(A / B);
+
+        sc.close();
     }
 }

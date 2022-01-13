@@ -9,6 +9,7 @@ public class Plus {
         int B = sc.nextInt();
 
         System.out.println(A + B);
+        sc.close();
     }
 }
 /*

@@ -11,5 +11,7 @@ public class Minus {
 
         int C = A - B;
         System.out.println(C);
+
+        sc.close();
     }
 }
