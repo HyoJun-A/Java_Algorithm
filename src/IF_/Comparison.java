@@ -10,7 +10,7 @@ public class Comparison {
 
         if (A > B) {
             System.out.println(">");
-        } else if (A < B) {s
+        } else if (A < B) {
             System.out.println("<");
         } else if (A == B) {
             System.out.println("==");
