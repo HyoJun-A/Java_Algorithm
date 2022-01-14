@@ -15,6 +15,8 @@ public class Comparison {
         } else if (A == B) {
             System.out.println("==");
         }
+
+        sc.close();
     }
 }
 
