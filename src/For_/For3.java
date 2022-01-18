@@ -1,20 +1,18 @@
 package For_;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
+import java.util.Scanner;
 
 public class For3 {
-    public static void main(String[] args) throws NumberFormatException, IOException {
-        BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-        int T = Integer.parseInt(bf.readLine());
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int T = sc.nextInt();
 
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-        bw.write(T);
-        bw.flush();
-        bw.close();
+        for (int i = 0; i < T; ++i) {
+            int A = sc.nextInt();
+            int B = sc.nextInt();
+            System.out.println(A + B);
 
+        }
+        sc.close();
     }
 }
