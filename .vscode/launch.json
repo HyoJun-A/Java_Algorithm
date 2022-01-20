@@ -1,0 +1,182 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch For1",
+            "request": "launch",
+            "mainClass": "For_.For1",
+            "projectName": "Java_algorithm_5c71216b"
+        },
+        {
+            "type": "java",
+            "name": "Launch For2",
+            "request": "launch",
+            "mainClass": "For_.For2",
+            "projectName": "Java_algorithm_5c71216b"
+        },
+        {
+            "type": "java",
+            "name": "Launch For3",
+            "request": "launch",
+            "mainClass": "For_.For3",
+            "projectName": "Java_algorithm_5c71216b"
+        },
+        {
+            "type": "java",
+            "name": "Launch For4",
+            "request": "launch",
+            "mainClass": "For_.For4",
+            "projectName": "Java_algorithm_5c71216b"
+        },
+        {
+            "type": "java",
+            "name": "Launch For5",
+            "request": "launch",
+            "mainClass": "For_.For5",
+            "projectName": "Java_algorithm_5c71216b"
+        },
+        {
+            "type": "java",
+            "name": "Launch For6",
+            "request": "launch",
+            "mainClass": "For_.For6",
+            "projectName": "Java_algorithm_5c71216b"
+        },
+        {
+            "type": "java",
+            "name": "Launch For7",
+            "request": "launch",
+            "mainClass": "For_.For7",
+            "projectName": "Java_algorithm_5c71216b"
+        },
+        {
+            "type": "java",
+            "name": "Launch mul_table",
+            "request": "launch",
+            "mainClass": "For_.mul_table",
+            "projectName": "Java_algorithm_5c71216b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Clock",
+            "request": "launch",
+            "mainClass": "IF_.Clock",
+            "projectName": "Java_algorithm_5c71216b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Comparison",
+            "request": "launch",
+            "mainClass": "IF_.Comparison",
+            "projectName": "Java_algorithm_5c71216b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Grade",
+            "request": "launch",
+            "mainClass": "IF_.Grade",
+            "projectName": "Java_algorithm_5c71216b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Quadrant",
+            "request": "launch",
+            "mainClass": "IF_.Quadrant",
+            "projectName": "Java_algorithm_5c71216b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Year",
+            "request": "launch",
+            "mainClass": "IF_.Year",
+            "projectName": "Java_algorithm_5c71216b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Cat",
+            "request": "launch",
+            "mainClass": "input_output.Cat",
+            "projectName": "Java_algorithm_5c71216b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Dog",
+            "request": "launch",
+            "mainClass": "input_output.Dog",
+            "projectName": "Java_algorithm_5c71216b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hello",
+            "request": "launch",
+            "mainClass": "input_output.Hello",
+            "projectName": "Java_algorithm_5c71216b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hello2",
+            "request": "launch",
+            "mainClass": "input_output.Hello2",
+            "projectName": "Java_algorithm_5c71216b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Minus",
+            "request": "launch",
+            "mainClass": "input_output.Minus",
+            "projectName": "Java_algorithm_5c71216b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Plus",
+            "request": "launch",
+            "mainClass": "input_output.Plus",
+            "projectName": "Java_algorithm_5c71216b"
+        },
+        {
+            "type": "java",
+            "name": "Launch arithmetic",
+            "request": "launch",
+            "mainClass": "input_output.arithmetic",
+            "projectName": "Java_algorithm_5c71216b"
+        },
+        {
+            "type": "java",
+            "name": "Launch division",
+            "request": "launch",
+            "mainClass": "input_output.division",
+            "projectName": "Java_algorithm_5c71216b"
+        },
+        {
+            "type": "java",
+            "name": "Launch multiply",
+            "request": "launch",
+            "mainClass": "input_output.multiply",
+            "projectName": "Java_algorithm_5c71216b"
+        },
+        {
+            "type": "java",
+            "name": "Launch multiply2",
+            "request": "launch",
+            "mainClass": "input_output.multiply2",
+            "projectName": "Java_algorithm_5c71216b"
+        },
+        {
+            "type": "java",
+            "name": "Launch rest",
+            "request": "launch",
+            "mainClass": "input_output.rest",
+            "projectName": "Java_algorithm_5c71216b"
+        }
+    ]
+}
