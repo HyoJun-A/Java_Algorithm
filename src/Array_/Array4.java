@@ -5,12 +5,17 @@ import java.util.Scanner;
 public class Array4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        int[] T = new int[10];
         int[] result = new int[10];
 
         // 나머지를 구하기 위한 값을 리스트 result에 저장
         for (int i = 0; i < 10; i++) {
             int A = sc.nextInt();
-            result[i] = A;
+            T[i] = A;
+        }
+
+        for (int i = 0; i < T.length; ++i) {
+            result[i] = T[i] % 42;
         }
 
         sc.close();
