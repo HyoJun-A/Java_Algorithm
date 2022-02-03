@@ -1,38 +1,31 @@
 package Array_;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.List;
 import java.util.Scanner;
+import java.util.Set;
 
 public class Array4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] T = new int[10];
-        int[] rest = new int[10];
-        int[] result = new int[10];
-        int re = 0;
 
-        // 나머지를 구하기 위한 값을 리스트에 저장
         for (int i = 0; i < 10; i++) {
             int A = sc.nextInt();
-            T[i] = A;
+            T[i] = A % 42;
         }
 
-        // 받아온 10가지의 값들을 42로 나눈 나머지의 값을 저장
-        for (int i = 0; i < T.length; ++i) {
-            rest[i] = T[i] % 42;
-        }
+        Set<Integer> set = new HashSet<Integer>();
 
-        for (int i = 0; i < T.length; ++i) {
-            if (rest[i] == rest[i + 1]) {
-                result[i] = rest[i];
-            } else if (rest[i] != rest[i + 1]) {
-                rest[i] = rest[i + 1];
-            }
-        }
+        for (int i : T)
+            set.add(i);
 
-        for (int i = 0; i < rest.length; ++i) {
-            re = re + rest[i];
-        }
-        System.out.print(re);
+        List<Integer> list = new ArrayList<Integer>(set);
+        Collections.sort(list);
+
+        System.out.println(list.size());
         sc.close();
     }
 }
