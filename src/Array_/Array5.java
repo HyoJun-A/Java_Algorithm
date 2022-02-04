@@ -5,31 +5,33 @@ import java.util.Scanner;
 public class Array5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        // 시험을 본 과목의 개수
         int n = sc.nextInt();
+
         int[] exam = new int[n];
         int Max = 0;
         double tMax = 0.0;
         double sum = 0.0;
 
+        // 시험의 성적을 받는 동시에 시험점수의 최댓값을 구하는 for문
         for (int i = 0; i < n; ++i) {
             exam[i] = sc.nextInt();
-        }
-
-        for (int i = 0; i < exam.length; ++i) {
             if (Max < exam[i]) {
                 Max = exam[i];
             }
         }
 
+        // 최댓값이 아닌 수를 sum에 넣어주며 최댓값을 tMax에 넣어서 최종적인 sum을 구해준다.
+        // 여기서 최댓값을 넣는 if문을 사용한 이유는 예를들어 값이 10 20 20 이면 최댓값이 2개이기 때문에 사용
         for (int i = 0; i < exam.length; ++i) {
             if (Max != exam[i]) {
                 sum = sum + exam[i];
-            }
-            if (Max == exam[i]) {
+            } else if (Max == exam[i]) {
                 tMax = tMax + exam[i];
             }
         }
         sum = sum + tMax;
+        // 새로운 평균을 구하는 공식
         double result = ((sum / Max) * 100) / n;
 
         System.out.println(result);
