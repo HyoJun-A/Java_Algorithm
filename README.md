@@ -5,7 +5,7 @@
 - if 
 - For
 - While
-- Array
+- Array2
 
 ## Code
 > Please check the code in the "src" folder.
