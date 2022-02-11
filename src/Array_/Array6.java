@@ -7,20 +7,21 @@ public class Array6 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int T = sc.nextInt();
-        ArrayList<Character> list = new ArrayList<>();
-        int[] result = new int[T];
+        int T = sc.nextInt(); // testcase의 갯수를 받아오는 T
+        ArrayList<Character> list = new ArrayList<>(); // OX문자를 받아올 리스트
+        int[] result = new int[T]; // OX의 식의 숫자의 결과를 받아올 배열
         int count = 0;
 
         for (int i = 0; i < T; ++i) {
             String s = sc.next();
             int num = 0;
 
+            // 문자를 하나씩 잘라서 저장
             for (int j = 0; j < s.length(); ++j) {
                 char c = s.charAt(j);
                 list.add(c);
             }
-
+            // 자를 문자들을 equals()를 사용하여 문자를 비교
             for (int k = 0; k < list.size(); ++k) {
                 char O = 'O';
                 if (list.get(k).equals(O)) {
