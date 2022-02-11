@@ -1,17 +1,42 @@
 package Array_;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Array6 {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int T = sc.nextInt();
-        String[] result = new String[T];
+        ArrayList<Character> list = new ArrayList<>();
+        ArrayList<Integer> result = new ArrayList<>();
+
         for (int i = 0; i < T; ++i) {
-            result[i] = sc.nextLine();
-            System.out.println(T);
+            String s = sc.next();
+            for (int j = 0; j < s.length(); ++j) {
+                char c = s.charAt(j);
+                list.add(c);
+            }
         }
 
+        for (int k = 0; k < list.size(); ++k) {
+            char O = 'O';
+            int count = 0;
+            int num = 0;
+            if (list.get(k).equals(O)) {
+                count++;
+                num = num + count;
+            } else {
+                count = 0;
+            }
+            result.get(num);
+        }
+
+        for (int i = 0; i < result.size(); ++i) {
+            System.out.println(result.get(i));
+        }
+        result.clear();
+        list.clear();
         sc.close();
     }
 }
