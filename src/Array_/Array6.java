@@ -9,35 +9,37 @@ public class Array6 {
         Scanner sc = new Scanner(System.in);
         int T = sc.nextInt();
         ArrayList<Character> list = new ArrayList<>();
-        ArrayList<Integer> result = new ArrayList<>();
+        int[] result = new int[T];
+        int count = 0;
 
         for (int i = 0; i < T; ++i) {
             String s = sc.next();
+            int num = 0;
+
             for (int j = 0; j < s.length(); ++j) {
                 char c = s.charAt(j);
                 list.add(c);
             }
-        }
 
-        for (int k = 0; k < list.size(); ++k) {
-            char O = 'O';
-            int count = 0;
-            int num = 0;
-            if (list.get(k).equals(O)) {
-                count++;
-                num = num + count;
-            } else {
-                count = 0;
+            for (int k = 0; k < list.size(); ++k) {
+                char O = 'O';
+                if (list.get(k).equals(O)) {
+                    count++;
+                    num += count;
+                } else {
+                    count = 0;
+                }
             }
-            result.get(num);
-        }
+            result[i] = num;
+            list.clear();
+            count = 0;
 
-        for (int i = 0; i < result.size(); ++i) {
-            System.out.println(result.get(i));
         }
-        result.clear();
-        list.clear();
+        for (int i = 0; i < result.length; ++i) {
+            System.out.println(result[i]);
+        }
         sc.close();
+
     }
 }
 
